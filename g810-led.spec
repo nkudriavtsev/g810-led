@@ -67,7 +67,7 @@ rm -rf $RPM_BUILD_ROOT
 %config(noreplace) %{_sysconfdir}/%{name}
 
 %changelog
+* Sat May 25 2019 Nicholas Kudriavtsev <nkudriavtsev@gmail.com> - 0.3.3-1
+- Update to 0.3.3
 * Wed Oct 31 2018 Lars Kiesow <lkiesow@uos.de> - 0.2.8-1
 - Initial packaging
-* Sat May 24 2019 Nicholas Kudriavtsev <nkudriavtsev@gmail.com> - 0.3.3-1
-- Update to 0.3.3
