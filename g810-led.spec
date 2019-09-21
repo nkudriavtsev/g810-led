@@ -1,6 +1,6 @@
 Name:      g810-led
 Summary:   Linux led controller for Logitech Keyboards
-Version:   0.3.7
+Version:   0.3.9
 Release:   1%{?dist}
 License:   GPLv3
 URL:       https://github.com/MatMoul/g810-led
@@ -67,6 +67,8 @@ rm -rf $RPM_BUILD_ROOT
 %config(noreplace) %{_sysconfdir}/%{name}
 
 %changelog
+* Sat Sep 21 2019 Nicholas Kudriavtsev <nkudriavtsev@gmail.com> - 0.3.9-1
+- Release 0.3.9
 * Fri Jul 26 2019 Nicholas Kudriavtsev <nkudriavtsev@gmail.com> - 0.3.7-1
 - Update to 0.3.7
 - Removed 512 model
