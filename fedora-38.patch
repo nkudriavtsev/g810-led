@@ -1,0 +1,12 @@
+diff --git a/src/main.cpp b/src/main.cpp
+index 2099027..8f7f3d2 100644
+--- a/src/main.cpp
++++ b/src/main.cpp
+@@ -19,6 +19,7 @@
+ #include <unistd.h>
+ #include <fstream>
+ #include <map>
++#include <cstdint>
+ 
+ #include "helpers/help.h"
+ #include "helpers/utils.h"
