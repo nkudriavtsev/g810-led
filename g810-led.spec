@@ -5,6 +5,7 @@ Release:   1%{?dist}
 License:   GPLv3
 URL:       https://github.com/MatMoul/g810-led
 Source0:   https://github.com/MatMoul/%{name}/archive/v%{version}.tar.gz
+Patch1:    fedora-38.patch
 BuildRoot: %{_tmppath}/%{name}-%{version}-%{release}-root
 
 
@@ -22,7 +23,7 @@ and GPRO Keyboards.
 
 %prep
 %setup -q
-
+%patch1 -p1
 
 %build
 make debug
