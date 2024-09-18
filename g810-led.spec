@@ -70,26 +70,4 @@ rm -rf $RPM_BUILD_ROOT
 %config(noreplace) %{_sysconfdir}/%{name}
 
 %changelog
-* Thu Dec 01 2022 Nicholas Kudriavtsev <nkudriavtsev@gmail.com> - 0.4.3-1
-- Release 0.4.3
-* Thu May 14 2020 Nicholas Kudriavtsev <nkudriavtsev@gmail.com> - 0.4.1-1
-- Release 0.4.1
-* Tue Apr 28 2020 Nicholas Kudriavtsev <nkudriavtsev@gmail.com> - 0.4.0-1
-- Release 0.4.0
-* Thu Oct 01 2019 Nicholas Kudriavtsev <nkudriavtsev@gmail.com> - 0.3.9-2
-- Added install for g810-led.service
-* Sat Sep 21 2019 Nicholas Kudriavtsev <nkudriavtsev@gmail.com> - 0.3.9-1
-- Release 0.3.9
-* Fri Jul 26 2019 Nicholas Kudriavtsev <nkudriavtsev@gmail.com> - 0.3.7-1
-- Update to 0.3.7
-- Removed 512 model
-* Sat Jul 20 2019 Nicholas Kudriavtsev <nkudriavtsev@gmail.com> - 0.3.6-1
-- Update to 0.3.6
-* Mon Jun 24 2019 Nicholas Kudriavtsev <nkudriavtsev@gmail.com> - 0.3.5-1
-- Update to 0.3.5
-* Mon May 27 2019 Nicholas Kudriavtsev <nkudriavtsev@gmail.com> - 0.3.4-1
-- Update to 0.3.4
-* Sat May 25 2019 Nicholas Kudriavtsev <nkudriavtsev@gmail.com> - 0.3.3-1
-- Update to 0.3.3
-* Wed Oct 31 2018 Lars Kiesow <lkiesow@uos.de> - 0.2.8-1
-- Initial packaging
+%autochangelog
